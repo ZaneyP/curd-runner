@@ -1,0 +1,10 @@
+// Cloudflare Pages configuration for Curd Runner.
+// Deploy with:  npx wrangler pages deploy
+// Local dev:    npx wrangler pages dev
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "curd-runner",
+  "compatibility_date": "2026-10-01",
+  // The build output is the static /public folder. index.html is the whole game.
+  "pages_build_output_dir": "./public"
+}

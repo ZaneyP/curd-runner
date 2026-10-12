@@ -1,0 +1,13 @@
+{
+  "name": "curd-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curd Runner: The Last Wheel. A cyberpunk match-3 about the end of cheese. Single-file HTML5 game for Cloudflare Pages.",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name curd-runner"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
